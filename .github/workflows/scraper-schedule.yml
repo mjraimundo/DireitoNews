@@ -1,21 +1,21 @@
 name: Run DireitoNews Scraper
 
 on:
-  schedule:
+  #schedule:
     # 07h BR (10h UTC)
-    - cron: "0 10 * * *"
+    #- cron: "0 10 * * *"
     # 09h BR (12h UTC)
-    - cron: "0 12 * * *"
+    #- cron: "0 12 * * *"
     # 11h BR (14h UTC)
-    - cron: "0 14 * * *"
+    #- cron: "0 14 * * *"
     # 13h BR (16h UTC)
-    - cron: "0 16 * * *"
+    #- cron: "0 16 * * *"
     # 15h BR (18h UTC)
-    - cron: "0 18 * * *"
+    #- cron: "0 18 * * *"
     # 17h BR (20h UTC)
-    - cron: "0 20 * * *"
+    #- cron: "0 20 * * *"
     # 19h BR (22h UTC)
-    - cron: "0 22 * * *"
+    #- cron: "0 22 * * *"
 
   workflow_dispatch:  # permite rodar manualmente pelo GitHub
     inputs:
